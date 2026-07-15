@@ -1,10 +1,10 @@
 const CACHE_NAME = "auraboard-cache-v1";
 const ASSETS_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/icon.svg",
-  "/vite.svg"
+  "./",
+  "./index.html",
+  "./manifest.json",
+  "./icon.svg",
+  "./vite.svg"
 ];
 
 // Install Event - Pre-cache critical files

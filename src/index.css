@@ -128,3 +128,34 @@
     @apply font-sans;
     }
 }
+
+/* Custom GPU-accelerated transition animations for AuraBoard swipe face shifts */
+@keyframes slide-up-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(60px) scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes slide-down-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px) scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-slide-up-enter {
+  animation: slide-up-enter 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-down-enter {
+  animation: slide-down-enter 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

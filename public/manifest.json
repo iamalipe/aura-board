@@ -1,0 +1,29 @@
+{
+  "short_name": "AuraBoard",
+  "name": "AuraBoard 24/7 Smart Dashboard",
+  "description": "An always-on smart dashboard clock designed to run 24/7 on dedicated screens.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "orientation": "landscape",
+  "categories": ["utilities", "productivity"]
+}
